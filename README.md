@@ -1,63 +1,36 @@
 # Lux FHE Handbook
 
-A comprehensive deep-dive guide to Fully Homomorphic Encryption with Lux.
+A comprehensive deep-dive guide to Fully Homomorphic Encryption.
 
-## Table of Contents
+## Chapters
 
-1. **Introduction to FHE**
-   - History and motivation
-   - Mathematical foundations
-   - Lattice-based cryptography
+### Getting Started
+- [Quick Start](./chapters/quick_start.md)
+- [Installation](./chapters/installing.md)
+- [First Circuit](./chapters/first_circuit.md)
 
-2. **Getting Started**
-   - Installation
-   - First FHE program
-   - Client-server architecture
+### Core Concepts
+- [FHE Basics](./chapters/fhe_basics.md)
+- [Table Lookups](./chapters/table_lookups.md)
+- [Bit Extraction](./chapters/bit_extraction.md)
+- [Rounding](./chapters/rounding.md)
+- [Truncating](./chapters/truncating.md)
 
-3. **Core Concepts**
-   - Encryption schemes (TFHE, CKKS, BGV)
-   - Bootstrapping
-   - Noise management
-   - Parameter selection
+### Guides
+- [Configure](./chapters/configure.md)
+- [Manage Keys](./chapters/manage_keys.md)
+- [Deploy](./chapters/deploy.md)
+- [Optimize](./chapters/optimize.md)
 
-4. **Operations**
-   - Arithmetic operations
-   - Comparison operations
-   - Boolean circuits
-   - Control flow
+### Resources
+- [Curated Resources](./resources.md) - Papers, tutorials, videos
 
-5. **Performance**
-   - Optimization techniques
-   - GPU acceleration
-   - Batching
-   - Parallelization
+## Related
 
-6. **Applications**
-   - Private machine learning
-   - Private analytics
-   - Confidential smart contracts
-   - Private AI agents
-
-7. **Security**
-   - Security proofs
-   - Parameter hardness
-   - Side-channel considerations
-   - Post-quantum security
-
-8. **Advanced Topics**
-   - Multi-party computation integration
-   - Threshold FHE
-   - Verifiable FHE
-   - Hybrid encryption
-
-## Contributing
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md).
+- [luxfhe/docs](https://github.com/luxfhe/docs) - Full documentation
+- [luxfhe/workshop](https://github.com/luxfhe/workshop) - Interactive tutorials
+- [luxfhe/examples](https://github.com/luxfhe/examples) - Code examples
 
 ## License
 
 Apache 2.0
-
----
-
-Part of the [Lux FHE ecosystem](https://github.com/luxfhe).
