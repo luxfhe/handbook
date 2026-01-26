@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lux FHE Handbook</title>
+    <style>
+        :root { --bg: #0a0a0a; --fg: #fafafa; --accent: #8b5cf6; --muted: #71717a; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--fg); min-height: 100vh; padding: 4rem 2rem; }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 { font-size: 3rem; margin-bottom: 1rem; }
+        .tagline { font-size: 1.25rem; color: var(--muted); margin-bottom: 3rem; }
+        .toc { background: #18181b; border-radius: 12px; padding: 2rem; border: 1px solid #27272a; }
+        .toc h2 { margin-bottom: 1.5rem; color: var(--accent); }
+        .toc ol { margin-left: 1.5rem; }
+        .toc li { margin-bottom: 1rem; }
+        .toc a { color: var(--fg); text-decoration: none; }
+        .toc a:hover { color: var(--accent); }
+        .toc .sub { color: var(--muted); font-size: 0.9rem; margin-top: 0.25rem; }
+        .links { display: flex; gap: 1rem; margin-top: 2rem; }
+        .btn { padding: 0.75rem 1.5rem; background: var(--accent); color: white; text-decoration: none; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📖 Lux FHE Handbook</h1>
+        <p class="tagline">A comprehensive deep-dive guide to Fully Homomorphic Encryption</p>
+        
+        <div class="toc">
+            <h2>Table of Contents</h2>
+            <ol>
+                <li><a href="#">Introduction to FHE</a><div class="sub">History, motivation, mathematical foundations</div></li>
+                <li><a href="#">Getting Started</a><div class="sub">Installation, first program, client-server architecture</div></li>
+                <li><a href="#">Core Concepts</a><div class="sub">TFHE, CKKS, BGV, bootstrapping, noise management</div></li>
+                <li><a href="#">Operations</a><div class="sub">Arithmetic, comparison, boolean circuits, control flow</div></li>
+                <li><a href="#">Performance</a><div class="sub">Optimization, GPU acceleration, batching, parallelization</div></li>
+                <li><a href="#">Applications</a><div class="sub">Private ML, analytics, smart contracts, AI agents</div></li>
+                <li><a href="#">Security</a><div class="sub">Proofs, parameter hardness, post-quantum security</div></li>
+                <li><a href="#">Advanced Topics</a><div class="sub">MPC integration, threshold FHE, verifiable FHE</div></li>
+            </ol>
+        </div>
+        
+        <div class="links">
+            <a href="https://github.com/luxfhe/handbook" class="btn">View on GitHub</a>
+        </div>
+    </div>
+</body>
+</html>
