@@ -16,7 +16,7 @@ A comprehensive deep-dive guide to Fully Homomorphic Encryption.
 ### Core Concepts
 - [FHE Basics](./chapters/fhe_basics.md)
 - [Table Lookups](./chapters/table_lookups.md)
-- [TFHE-rs Integration](./chapters/tfhers/)
+- [Lux-FHE Integration](./chapters/tfhers/)
 
 ### Guides  
 - [Configure](./chapters/configure.md)
